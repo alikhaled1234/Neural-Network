@@ -1,0 +1,39 @@
+*.csv
+# Ignore build artifacts
+*.o
+*.obj
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.ipch
+
+
+# Ignore build folders
+/build/
+/bin/
+/Debug/
+/Release/
+
+# Ignore logs and temporary files
+*.log
+*.tmp
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Visual Studio specific (if using)
+*.sln
+*.vcxproj*
+*.user
+*.ncb
+*.suo
+ipch/
+.vs/
+
+# CLion / JetBrains IDE
+.idea/
